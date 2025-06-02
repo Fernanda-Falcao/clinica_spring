@@ -54,7 +54,7 @@ public class UsuarioService implements UserDetailsService {
     private String[] getAuthorities(List<Perfil> perfis) {
         String[] authorities = new String[perfis.size()];
         for (int i = 0; i < perfis.size(); i++) {
-            authorities[i] = perfis.get(i).getDesc(); // getDesc deve retornar algo como "ROLE_USER"
+            authorities[i] = perfis.get(i).getDescricao(); // getDesc deve retornar algo como "ROLE_USER"
         }
         return authorities;
     }
