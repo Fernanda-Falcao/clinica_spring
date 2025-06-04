@@ -1,5 +1,6 @@
 package com.br.spring_security.clinica.model;
 
+import com.br.spring_security.clinica.model.especialidade.Especialidade;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;

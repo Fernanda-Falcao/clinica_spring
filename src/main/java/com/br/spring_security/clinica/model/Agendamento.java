@@ -3,6 +3,10 @@ package com.br.spring_security.clinica.model;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.format.annotation.DateTimeFormat;
+
+import com.br.spring_security.clinica.model.especialidade.Especialidade;
+import com.br.spring_security.clinica.model.paciente.Paciente;
+
 import java.time.LocalDate;
 
 @Entity
